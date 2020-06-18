@@ -48,11 +48,11 @@ function App() {
   return (
         <div> 
           <Form
-            values={formValues}
+            value={formValues}
             onInputChange={onInputChange}
             onSubmit={onSubmit}
           />
-          {/* <div>
+          <div>
             {
               teamMembers.map(teamMember => {
                 return ( 
@@ -64,7 +64,7 @@ function App() {
                       )
               })
             }
-          </div> */}
+          </div>
         
         </div>
         );

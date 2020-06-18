@@ -12,7 +12,7 @@ function Form (props) {
     console.log(values)
     return(
    
-        <Form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit}>
             <div>
                 <h1>Team Members</h1>
                 <button>SUBMIT</button>
@@ -46,7 +46,7 @@ function Form (props) {
                     <option value='Web Design'>Web Design</option>
                 </select>
             </label>
-        </Form>    
+        </form>    
     )
 }
 
